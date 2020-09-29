@@ -25,3 +25,6 @@ target_link_libraries(notify_q_example notify_queue)
 
 add_executable(thread_poll_example src/thread_poll_example.cpp)
 target_link_libraries(thread_poll_example thread_poll)
+
+add_executable(http_client_example src/http_client_example.cpp)
+target_link_libraries(http_client_example PUBLIC tcp)
