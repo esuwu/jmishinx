@@ -25,7 +25,7 @@ int main() {
             "Server: YarServer/2009-09-09\r\n"
             "Content-Type: text/html\r\n"
             "Content-Length: 9876\r\n"
-            "Connection: keep-alive\r\n\r\n"
+            "Connection: close\r\n\r\n"
             "<html><body><h1>"
             "I got method: " + http_request.method() + "\t" +
             "With path: " + http_request.path() +
@@ -34,7 +34,7 @@ int main() {
         conn << response_string;
     };
 
-    epoll::Server server("0.0.0.0", 8081, on_read);
+    epoll::Server server("0.0.0.0", 8080, on_read);
     try {
         server.spin();
     } catch (base_exception::Exception &e) {

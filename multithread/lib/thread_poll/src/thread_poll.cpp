@@ -49,8 +49,8 @@ void ThreadPoll::initialize(size_t num_threads) {
                     {
                         std::stringstream ss;
                         std::lock_guard _{_mutex};
-                        ss << "---------------------------------------\n" << "thread # " << i;
-                        std::cout << ss.str() << std::endl;
+                        ss << "---------------------------------------\n" << "thread # " << i << "\n";
+                        std::cout << ss.str();
                     }
                     _q.pop()();
                 }
@@ -62,12 +62,7 @@ void ThreadPoll::stop_plz() {
     _run = false;
     _q.clear();
     for (size_t i = 0; i < _poll.size(); ++i) {
-        _q.push([this, i] {
-            std::lock_guard _{_mutex};
-            std::stringstream ss;
-            ss << "empty task of thread # " << i;
-            std::cout << ss.str() << std::endl;
-        });
+        _q.push([] {});
     }
 
     for (auto &job: _poll) {
