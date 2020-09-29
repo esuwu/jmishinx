@@ -15,16 +15,14 @@ int main() {
         conn >> to_read;
         std::cout << "reading from " << conn.props().dst_addr() << std::endl;
         std::cout << to_read << std::endl;
-    };
 
-    auto on_write = [](tcp::Connection &conn) {
         std::string to_write("MUDAMUDAMUDA");
 //        std::this_thread::sleep_for(10s);
         conn << to_write;
         std::cout << "writing to " << conn.props().dst_addr() << std::endl;
     };
 
-    epoll::Server server("0.0.0.0", 8080, on_read, on_write);
+    epoll::Server server("0.0.0.0", 8080, on_read);
     server.spin();
     return 0;
 }

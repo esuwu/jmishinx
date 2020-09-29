@@ -7,6 +7,11 @@
 
 namespace http {
 class HttpRequest {
+ public:
+    HttpRequest() {
+
+    }
+ private:
 
 };
 }  // namespace http

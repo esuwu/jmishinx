@@ -14,7 +14,8 @@
 namespace epoll {
 class Server {
  public:
-    Server(const std::string &ip, uint16_t port, ClientCallback on_read, ClientCallback on_write);
+    Server(const std::string &ip, uint16_t port, ClientCallback on_read,
+           ClientCallback on_write = [](tcp::Connection &conn) {});
 
     void spin_once();
     void spin();
