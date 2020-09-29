@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/tcp_client_example.dir/src/tcp_client_example.o  -o tcp_client_example  lib/tcp/libtcp.a lib/file_descriptor/libfile_descriptor.a lib/base_exception/libbase_exception.a 

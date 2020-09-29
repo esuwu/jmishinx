@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\base_exception\;CMake Files\lib\file_descriptor\;CMake Files\lib\tcp\;CMake Files\lib\notify_queue\;CMake Files\lib\thread_poll\;CMake Files\lib\epoll\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="notify_q_example">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/notify_q_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 notify_q_example"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="notify_q_example/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/notify_q_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 notify_q_example/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll_server_example">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/epoll_server_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 epoll_server_example"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll_server_example/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/epoll_server_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 epoll_server_example/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_poll_example">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/thread_poll_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread_poll_example"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_poll_example/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/thread_poll_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread_poll_example/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll_client_example">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/epoll_client_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 epoll_client_example"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll_client_example/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/epoll_client_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 epoll_client_example/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="derivative">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/derivative" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 derivative"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="derivative/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/derivative" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 derivative/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_server_example">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/tcp_server_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp_server_example"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_server_example/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/tcp_server_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp_server_example/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="allocator">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/allocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 allocator"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="allocator/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/allocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 allocator/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client_example">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/tcp_client_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp_client_example"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client_example/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/tcp_client_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 tcp_client_example/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base_exception">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/libbase_exception.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 base_exception"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="base_exception/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/libbase_exception.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 base_exception/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/base_exception/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_descriptor">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/libfile_descriptor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 file_descriptor"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="file_descriptor/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/libfile_descriptor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 file_descriptor/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/file_descriptor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_poll">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/libthread_poll.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 thread_poll"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_poll/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/libthread_poll.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 thread_poll/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/libepoll.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 epoll"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="epoll/fast">
+				<Option output="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/libepoll.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/include"/>
+					<Add directory="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 epoll/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/epoll/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/src/base_exception.cpp">
+			<Option target="base_exception"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/src/epoll_base.cpp">
+			<Option target="epoll"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/src/epoll_server.cpp">
+			<Option target="epoll"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/src/file_descriptor.cpp">
+			<Option target="file_descriptor"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/src/socket_properties.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/src/tcp_connection.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/src/tcp_server.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/src/thread_poll.cpp">
+			<Option target="thread_poll"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/allocator.cpp">
+			<Option target="allocator"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/derivative.cpp">
+			<Option target="derivative"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/epoll_client_example.cpp">
+			<Option target="epoll_client_example"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/epoll_server_example.cpp">
+			<Option target="epoll_server_example"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/notify_q_example.cpp">
+			<Option target="notify_q_example"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/tcp_client_example.cpp">
+			<Option target="tcp_client_example"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/tcp_server_example.cpp">
+			<Option target="tcp_server_example"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/src/thread_poll_example.cpp">
+			<Option target="thread_poll_example"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/base_exception/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\base_exception\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/file_descriptor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\file_descriptor\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\tcp\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/notify_queue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\notify_queue\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/thread_poll/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\thread_poll\"/>
+		</Unit>
+		<Unit filename="/home/alexandr/Projects/jmishinx/multithread/lib/epoll/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\epoll\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

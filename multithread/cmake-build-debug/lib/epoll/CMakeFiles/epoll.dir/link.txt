@@ -1,0 +1,2 @@
+/usr/bin/ar qc libepoll.a  CMakeFiles/epoll.dir/src/epoll_server.o CMakeFiles/epoll.dir/src/epoll_base.o
+/usr/bin/ranlib libepoll.a
