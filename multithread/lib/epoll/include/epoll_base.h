@@ -20,7 +20,8 @@ class Epoll {
     Epoll() = default;
     Epoll(ClientCallback on_read,
           ClientCallback on_write,
-          const file_descriptor::FileDescriptor &server_fd);
+          const file_descriptor::FileDescriptor &server_fd,
+          size_t num_threads);
 
     Epoll(Epoll &&other) noexcept = default;
     Epoll &operator=(Epoll &&other) noexcept = default;
@@ -43,7 +44,7 @@ class Epoll {
     ClientCallback _on_write;
 
     std::unordered_map<int, tcp::Connection> _connections;
-    thread_poll::ThreadPoll _thread_poll{};
+    thread_poll::ThreadPoll _thread_poll;
 };
 }  // namespace epoll
 

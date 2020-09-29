@@ -16,9 +16,10 @@ namespace epoll {
 Server::Server(const std::string &ip,
                uint16_t port,
                ClientCallback on_read,
-               ClientCallback on_write) {
+               ClientCallback on_write,
+               size_t num_threads) {
     open(ip, port);
-    _epoll = Epoll(std::move(on_read), std::move(on_write), _server_fd);
+    _epoll = Epoll(std::move(on_read), std::move(on_write), _server_fd, num_threads);
 }
 
 void Server::open(const std::string &ip, uint16_t port) {

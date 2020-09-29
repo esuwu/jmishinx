@@ -49,7 +49,7 @@ void ThreadPoll::initialize(size_t num_threads) {
                     {
                         std::stringstream ss;
                         std::lock_guard _{_mutex};
-                        ss << "thread # " << i;
+                        ss << "---------------------------------------\n" << "thread # " << i;
                         std::cout << ss.str() << std::endl;
                     }
                     _q.pop()();

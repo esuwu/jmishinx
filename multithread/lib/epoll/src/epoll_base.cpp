@@ -17,10 +17,12 @@ const size_t QUEUE_SIZE = 128;
 
 Epoll::Epoll(ClientCallback on_read,
              ClientCallback on_write,
-             const file_descriptor::FileDescriptor &server_fd)
+             const file_descriptor::FileDescriptor &server_fd,
+             size_t num_threads)
     : _on_read(std::move(on_read)),
       _on_write(std::move(on_write)),
-      _epoll_fd(epoll_create(0xD1C)) {
+      _epoll_fd(epoll_create(0xD1C)),
+      _thread_poll(num_threads) {
 
     if (_epoll_fd == -1) {
         throw Exception("epoll creation failed");
