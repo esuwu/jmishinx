@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/notify_q_example.dir/src/notify_q_example.o  -o notify_q_example  -lpthread 

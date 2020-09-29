@@ -1,2 +1,0 @@
-/usr/bin/ar qc libthread_poll.a  CMakeFiles/thread_poll.dir/src/thread_poll.o
-/usr/bin/ranlib libthread_poll.a

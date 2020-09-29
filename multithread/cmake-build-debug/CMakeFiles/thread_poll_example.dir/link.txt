@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/thread_poll_example.dir/src/thread_poll_example.o  -o thread_poll_example   -L/home/alexandr/Projects/jmishinx/multithread/cmake-build-debug/lib/thread_poll  lib/thread_poll/libthread_poll.a -lpthread 

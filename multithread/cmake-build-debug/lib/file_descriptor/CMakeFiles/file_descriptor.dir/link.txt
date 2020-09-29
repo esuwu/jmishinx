@@ -1,2 +1,0 @@
-/usr/bin/ar qc libfile_descriptor.a  CMakeFiles/file_descriptor.dir/src/file_descriptor.o
-/usr/bin/ranlib libfile_descriptor.a
